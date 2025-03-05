@@ -1,3 +1,5 @@
-- name: Test my_custom_cred_lookup
-  debug:
-    msg: "{{ lookup('my_custom_cred_lookup', '') }}"
+- hosts: all
+  tasks:
+    - name: Test my_custom_cred_lookup
+      debug:
+        msg: "{{ lookup('my_custom_cred_lookup', '') }}"
