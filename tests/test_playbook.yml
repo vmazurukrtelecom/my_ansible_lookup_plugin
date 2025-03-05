@@ -2,4 +2,4 @@
   tasks:
     - name: Test my_custom_cred_lookup
       debug:
-        msg: "{{ lookup('my_ansible_lookup_plugin', '{{ inventory_hostname }}') }}"
+        msg: "{{ lookup('my_custom_cred_lookup', '') }}"
