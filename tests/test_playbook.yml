@@ -1,0 +1,3 @@
+- name: Test my_custom_cred_lookup
+  debug:
+    msg: "{{ lookup('my_custom_cred_lookup', '') }}"
